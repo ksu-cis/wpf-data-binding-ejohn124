@@ -38,6 +38,10 @@ namespace UniversityRegistry.UI
                 new Person(){FirstName="Dora", LastName="Explorer", DateOfBirth=new DateTime(1999, 6, 12), Role=Role.UndergraduateStudent, Active=true},
                 new Person(){FirstName="Caillou", LastName="Pine", DateOfBirth=new DateTime(1997, 9, 15), Role=Role.UndergraduateStudent, Active=true}
             };
+
+            // Assign the list as the DataContext 
+            DataContext = people;
         }
+
     }
 }
